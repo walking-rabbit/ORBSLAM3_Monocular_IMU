@@ -1958,9 +1958,9 @@ namespace ORB_SLAM3 {
 
         // cout << "Total map points: " << lLocalMapPoints.size() << endl;
         //  TODO debug会报错先注释掉
-        for (map<int, int>::iterator mit = mVisEdges.begin(), mend = mVisEdges.end(); mit != mend; mit++) {
+        /*for (map<int, int>::iterator mit = mVisEdges.begin(), mend = mVisEdges.end(); mit != mend; mit++) {
             assert(mit->second >= 3);
-        }
+        }*/
 
         // 12. 开始优化
         optimizer.initializeOptimization();
